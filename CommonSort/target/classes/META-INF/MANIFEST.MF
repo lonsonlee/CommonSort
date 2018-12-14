@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: CommonSort
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: WangJingbo
+Implementation-Vendor-Id: CommonSort
+Build-Jdk: 1.8.0_181
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/CommonSort
+Created-By: Maven Integration for Eclipse
+
