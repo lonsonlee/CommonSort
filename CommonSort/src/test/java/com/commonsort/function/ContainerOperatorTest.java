@@ -1,10 +1,7 @@
 package com.commonsort.function;
 
-import static org.junit.Assert.*;
-
 import java.util.Random;
 
-import org.hamcrest.Matchers;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -16,7 +13,7 @@ public class ContainerOperatorTest {
 	public void testConverse() {
 		long starttime=System.currentTimeMillis();
 		DQueueList source = new DQueueList();
-		int seed=20;
+		int seed=20;//ref to ContainerOperator.MAX_COMPARE_LEN
 		Random rand= new Random();
 		for(int i=0;i<seed;i++) {
 			source.addFirst(rand.nextInt(seed));			
@@ -34,7 +31,7 @@ public class ContainerOperatorTest {
 	public void testConverseSpeed() {
 		long starttime=System.currentTimeMillis();
 		DQueueList source = new DQueueList();
-		int seed=1000;
+		int seed=1000;//ref to ContainerOperator.MAX_COMPARE_LEN
 		Random rand= new Random();
 		for(int i=0;i<seed;i++) {
 			source.addFirst(rand.nextInt(seed));			
